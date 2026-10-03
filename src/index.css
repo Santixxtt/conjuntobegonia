@@ -1,13 +1,15 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
+:root {
   --color-begonia-50: #f2f8ee;
   --color-begonia-100: #dfeed3;
   --color-begonia-400: #6fae4e;
   --color-begonia-600: #438F17;
   --color-begonia-700: #3b6529;
   --color-begonia-800: #2e4f20;
-  --color-begonia-900: oklch(65.6% 0.241 354.308);
+  --color-begonia-900: #be185d;
   --font-display: "Poppins", "Inter", system-ui, sans-serif;
 }
 
