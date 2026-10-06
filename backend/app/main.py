@@ -8,12 +8,12 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="API Begonia")
 
-# Configuración de CORS para permitir peticiones desde el frontend
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"], # Puertos de Vite
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "https://conjuntobegonia.vercel.app/"], 
     allow_credentials=True,
-    allow_methods=["*"], # Permite GET, POST, PUT, DELETE, etc.
+    allow_methods=["*"],
     allow_headers=["*"], # Permite enviar tokens y otros headers
 )
 
