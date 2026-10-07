@@ -2,8 +2,8 @@ import { Baby, Store, PartyPopper, Flame, Trees, Dumbbell, Car, ShieldCheck, Paw
 
 // Ajusta este arreglo cuando confirmes qué tiene realmente el conjunto
 const amenities = [
-  { icon: Baby, label: "Jardín infantil", desc: "Zona de juegos para los más pequeños" },
-  { icon: Store, label: "Tienda", desc: "Minimarket dentro del conjunto" },
+  { icon: Baby, label: "Jardín infantil", desc: "Contamos con jardines dentro del conjunto" },
+  { icon: Store, label: "Tienda", desc: "Tienda en el conjunto" },
   { icon: PartyPopper, label: "Salón social", desc: "Para reuniones y eventos" },
   { icon: Flame, label: "Zona BBQ", desc: "Espacio de asados comunitario" },
   { icon: Trees, label: "Parque infantil", desc: "Zonas verdes y juegos al aire libre" },
